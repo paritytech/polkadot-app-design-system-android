@@ -1,0 +1,23 @@
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+**/build/
+
+# IDE
+.idea/
+*.iml
+.fleet/
+.vscode/
+
+# Local Android SDK config
+local.properties
+
+# macOS
+.DS_Store
+
+# Android native build outputs
+.externalNativeBuild/
+.cxx/
+
+# Android Studio captures
+/captures
