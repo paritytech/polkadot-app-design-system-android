@@ -18,7 +18,7 @@ In your module's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.paritytech:polkadot-app-designsystem-android:<tag>")
+    implementation("com.github.paritytech:polkadot-app-design-system-android:<tag>")
 }
 ```
 

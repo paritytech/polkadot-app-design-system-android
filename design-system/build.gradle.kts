@@ -6,7 +6,9 @@ plugins {
 }
 
 group = "com.github.paritytech"
-version = "0.0.1-local"
+// JitPack passes the git tag/commit being built via the VERSION env var.
+// Fall back to a local placeholder for local publishToMavenLocal runs.
+version = System.getenv("VERSION") ?: "0.0.1-local"
 
 android {
     namespace = "io.paritytech.polkadotapp.designsystem"
@@ -38,7 +40,7 @@ publishing {
     publications {
         register<MavenPublication>("release") {
             groupId = project.group.toString()
-            artifactId = "polkadot-app-designsystem-android"
+            artifactId = "polkadot-app-design-system-android"
             version = project.version.toString()
 
             afterEvaluate {

@@ -17,5 +17,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "polkadot-app-designsystem-android"
+rootProject.name = "polkadot-app-design-system-android"
 include(":design-system")
