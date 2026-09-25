@@ -22,4 +22,7 @@ object PolkadotFontFamilies {
     val martianMono = FontFamily(
         Font(R.font.martian_mono_variable, FontWeight.Normal, variationSettings = FontVariation.Settings(FontVariation.weight(400)))
     )
+    val sourceSans3 = FontFamily(
+        Font(R.font.source_sans_3_variable, FontWeight.Light, variationSettings = FontVariation.Settings(FontVariation.weight(300)))
+    )
 }

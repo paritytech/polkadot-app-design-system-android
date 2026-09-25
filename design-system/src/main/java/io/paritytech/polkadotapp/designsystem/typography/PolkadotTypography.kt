@@ -13,6 +13,7 @@ abstract class PolkadotTypography {
     abstract val emoji: Emoji
     abstract val code: Code
     abstract val caption: Caption
+    abstract val smallCaps: SmallCaps
 
     data class Display(
         val small: TextStyle,
@@ -76,6 +77,11 @@ abstract class PolkadotTypography {
     data class Caption(
         val small: TextStyle,
         val medium: TextStyle
+    )
+
+    data class SmallCaps(
+        val headlineMedium: TextStyle,
+        val displaySmall: TextStyle
     )
 }
 

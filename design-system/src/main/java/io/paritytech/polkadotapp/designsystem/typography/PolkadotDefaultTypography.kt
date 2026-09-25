@@ -282,4 +282,22 @@ class PolkadotDefaultTypography : PolkadotTypography() {
             letterSpacing = 1.sp
         )
     )
+    override val smallCaps = SmallCaps(
+        headlineMedium = TextStyle(
+            fontFamily = PolkadotFontFamilies.sourceSans3,
+            fontWeight = FontWeight.Light,
+            fontSize = 28.sp,
+            lineHeight = 36.sp,
+            fontFeatureSettings = "c2sc, smcp",
+            letterSpacing = 0.sp
+        ),
+        displaySmall = TextStyle(
+            fontFamily = PolkadotFontFamilies.sourceSans3,
+            fontWeight = FontWeight.Light,
+            fontSize = 36.sp,
+            lineHeight = 48.sp,
+            fontFeatureSettings = "c2sc, smcp",
+            letterSpacing = -0.5.sp
+        )
+    )
 }
