@@ -25,4 +25,7 @@ object PolkadotFontFamilies {
     val sourceSans3 = FontFamily(
         Font(R.font.source_sans_3_variable, FontWeight.Light, variationSettings = FontVariation.Settings(FontVariation.weight(300)))
     )
+    val cashLogo = FontFamily(
+        Font(R.font.cash_logo_regular, FontWeight.Normal)
+    )
 }
