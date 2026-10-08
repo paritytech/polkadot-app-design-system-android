@@ -28,7 +28,7 @@ Tags are published as `vX.Y.Z`. See the [Releases](../../releases) page.
 
 ```
 io.paritytech.polkadotapp.designsystem.colors      PolkadotColorsPalette, PolkadotColorsPrimitives, PolkadotDefaultPalette
-io.paritytech.polkadotapp.designsystem.typography  PolkadotTypography, PolkadotFontFamilies, PolkadotDefaultTypography, PolkadotValueTypography
+io.paritytech.polkadotapp.designsystem.typography  PolkadotTypography, PolkadotFontFamilies, PolkadotDefaultTypography, PolkadotValueTypography, PolkadotCashLogo
 io.paritytech.polkadotapp.designsystem.spacings    PolkadotSpacings, PolkadotDefaultSpacings
 io.paritytech.polkadotapp.designsystem.radii       PolkadotRadii, PolkadotDefaultRadii
 io.paritytech.polkadotapp.designsystem.borders     PolkadotBorders, PolkadotDefaultBorders
