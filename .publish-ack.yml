@@ -1,0 +1,15 @@
+version: 1
+repo: polkadot-app-design-system-android
+audited_at: 2026-11-20
+audited_commit: 06a46e5
+accepts:
+  - id: commit-author-emails
+    item: 5
+    location: git history
+    finding: >-
+      Commits carry the authors' real e-mail addresses.
+    reason: >-
+      Authorship metadata, not removable without rewriting history.
+    mitigation: >-
+      None required.
+    accepted_by: repository maintainers

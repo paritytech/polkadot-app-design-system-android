@@ -21,3 +21,19 @@ local.properties
 
 # Android Studio captures
 /captures
+
+# Environment
+.env*
+!.env.example
+*.local
+
+# Signing
+*.jks
+*.keystore
+
+# AI tooling state
+.claude/settings.local.json
+.claude/sessions/
+.claude/cache/
+.cursor/
+.mcp.json
