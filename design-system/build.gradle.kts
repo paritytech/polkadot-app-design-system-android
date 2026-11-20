@@ -43,6 +43,22 @@ publishing {
             artifactId = "polkadot-app-design-system-android"
             version = project.version.toString()
 
+            pom {
+                name.set("Polkadot App Design System — Android")
+                description.set("Compose design tokens for the Polkadot App: colors, typography, spacings, radii, shapes, borders.")
+                url.set("https://github.com/paritytech/polkadot-app-design-system-android")
+                licenses {
+                    license {
+                        name.set("Apache License, Version 2.0")
+                        url.set("https://www.apache.org/licenses/LICENSE-2.0.txt")
+                    }
+                }
+                scm {
+                    url.set("https://github.com/paritytech/polkadot-app-design-system-android")
+                    connection.set("scm:git:https://github.com/paritytech/polkadot-app-design-system-android.git")
+                }
+            }
+
             afterEvaluate {
                 from(components["release"])
             }
